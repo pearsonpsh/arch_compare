@@ -8,7 +8,9 @@ Make
   
 Run
   "./supportTest [source1] [arch1] [source2] [arch2]"
+  
   example "./supportTest sourceArm64 arm64 sourcex86 x86"
+  
   example "./supportTest sourceArm64 arm64 sourcearmhf armhf"
   
 View output
