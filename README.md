@@ -7,7 +7,9 @@ Make
   "make all"
   
 Run
-  ./supportTest sourceArm64 arm64 sourcex86 x86
+  "./supportTest [source1] [arch1] [source2] [arch2]"
+  example "./supportTest sourceArm64 arm64 sourcex86 x86"
+  example "./supportTest sourceArm64 arm64 sourcearmhf armhf"
   
 View output
   open "arm64VSx86.txt" or "[arch1]VS[arch2].txt" with arch1 and arch1 being the third and fifth arguements passed to the program.
