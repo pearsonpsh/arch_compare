@@ -1,7 +1,7 @@
 # arch_compare
 C++ Program that compares the programs offered in Ubuntu repositories for two different architectures and lists the exclusive packages for each.
 
-Requires local version of extracted Source.gz for both architectures (can be found at http://ports.ubuntu.com/ubuntu-ports/dists/bionic/main/ or http://security.ubuntu.com/ubuntu/dists/bionic/main/source/) and extracted and renamed to the .
+Requires local version of extracted Sources.gz for both architectures (can be found at http://ports.ubuntu.com/ubuntu-ports/dists/bionic/main/ or http://security.ubuntu.com/ubuntu/dists/bionic/main/source/) and extracted and named so you can tell them apart in the same folder as the project.
 
 Download
   Move to where you want to clone the project
@@ -9,6 +9,7 @@ Download
 
 
 Make
+
   "make all"
 
 
