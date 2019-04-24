@@ -1,17 +1,26 @@
 # arch_compare
 C++ Program that compares the programs offered in Ubuntu repositories for two different architectures and lists the exclusive packages for each.
 
-Requires local version of extracted Source.gz for both architectures (can be found at http://ports.ubuntu.com/ubuntu-ports/dists/bionic/main/ or http://security.ubuntu.com/ubuntu/dists/bionic/main/source/).
+Requires local version of extracted Source.gz for both architectures (can be found at http://ports.ubuntu.com/ubuntu-ports/dists/bionic/main/ or http://security.ubuntu.com/ubuntu/dists/bionic/main/source/) and extracted and renamed to the .
+
+Download
+  Move to where you want to clone the project
+  "git clone github.com/pearsonpsh/arch_compare/"
+
 
 Make
   "make all"
-  
+
+
 Run
+
   "./supportTest [source1] [arch1] [source2] [arch2]"
   
-  example "./supportTest sourceArm64 arm64 sourcex86 x86"
+  ex1 "./supportTest sourcesArm64 arm64 sourcesx86 x86"
   
-  example "./supportTest sourceArm64 arm64 sourcearmhf armhf"
-  
+  ex2 "./supportTest sourcesArm64 arm64 sourcesarmhf armhf"
+
+
 View output
-  open "arm64VSx86.txt" or "[arch1]VS[arch2].txt" with arch1 and arch1 being the third and fifth arguements passed to the program.
+
+open "arm64VSx86.txt" or "[arch1]VS[arch2].txt" with arch1 and arch1 being the third and fifth arguements passed to the program.
