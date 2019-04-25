@@ -7,7 +7,7 @@ Download
 
   Move to where you want to clone the project
   
-  "git clone github.com/pearsonpsh/arch_compare/"
+  "git clone https://github.com/pearsonpsh/arch_compare.git"
 
 
 Make
